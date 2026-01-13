@@ -19,7 +19,7 @@ Add to your Claude Code MCP config:
   "mcpServers": {
     "ableton-manual": {
       "command": "node",
-      "args": ["C:/Users/drane/ableton-manual/dist/index.js"]
+      "args": ["C:/Users/drane/ableton-manual/dist/src/index.js"]
     }
   }
 }
