@@ -1,0 +1,23 @@
+{
+  "name": "ableton-manual-mcp",
+  "version": "1.0.0",
+  "description": "MCP server with RAG for Ableton Live 12 manual",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "build-index": "node dist/scripts/build-index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": ["mcp", "ableton", "rag", "vector-search"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@xenova/transformers": "^2.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

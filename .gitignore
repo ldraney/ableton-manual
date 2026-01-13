@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+# Keep embeddings.json (it's the index we want to ship)
+# !data/embeddings.json
